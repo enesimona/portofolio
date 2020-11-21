@@ -1,0 +1,53 @@
+.courses {
+  display: block;
+  height: 90vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Raleway", sans-serif;
+  background: #50a3a2;
+  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -o-linear-gradient(top left, hsl(179, 34%, 48%) 0%, #53e3a6 100%);
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  color: white;
+}
+
+.courses h1 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.courses span {
+  display: block;
+}
+.courses h2 {
+  padding-bottom: 2rem;
+  font-weight: lighter;
+}
+.faq-line {
+  background: #cccccc;
+  height: 0.2rem;
+  margin: 2rem 0rem;
+  width: 90%;
+}
+.question {
+  padding: 0rem 0rem;
+  cursor: pointer;
+}
+
+.answer {
+  padding: 2rem 0rem;
+}
+
+.answer p {
+  padding: 1rem 0rem;
+  font-size: 17px;
+}
+
+.answer a {
+  color: white;
+  text-decoration: none !important;
+  font-size: 17px;
+}

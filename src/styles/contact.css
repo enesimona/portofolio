@@ -1,0 +1,30 @@
+.infos {
+  font-family: "Raleway", sans-serif;
+}
+
+.info {
+}
+
+.infos span {
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.infos a {
+  padding-left: 10px;
+  font-size: 30px;
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .infos span {
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  .infos a {
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
+  }
+}
