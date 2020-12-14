@@ -6,6 +6,7 @@ import firegram from "../images/firegram1.png";
 import musicplayer from "../images/music-player1.png";
 import paradox from "../images/paradox1.png";
 import vidly from "../images/vidly1.png";
+import ignite from "../images/ignite1.png";
 
 const Projects = () => {
   const [isShown, setIsShown] = useState(false);
@@ -30,6 +31,21 @@ const Projects = () => {
             target="_blank"
           >
             <img className="img-fluid img-thumbnail" src={capture} alt="" />
+            {/* {isShown && <h4>Capture</h4>} */}
+          </a>
+        </div>
+
+        <div
+          className=" col-md-4 col-md-6"
+          onMouseEnter={() => setIsShown(true)}
+          onMouseLeave={() => setIsShown(false)}
+        >
+          <a
+            href="https://enesimona.github.io/ignite/"
+            className="d-block mb-4 h-100"
+            target="_blank"
+          >
+            <img className="img-fluid img-thumbnail" src={ignite} alt="" />
             {/* {isShown && <h4>Capture</h4>} */}
           </a>
         </div>
