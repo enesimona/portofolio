@@ -40,10 +40,11 @@ const Initial = () => {
               delay: 1,
             }}
           >
-            I'm a frontend developer.
+            I'm a web developer.
           </motion.h1>
 
           <motion.p
+            className="my-description"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
@@ -51,14 +52,9 @@ const Initial = () => {
               delay: 1.5,
             }}
           >
-            I am an ambitious and hardworking individual, with broad skills and
-            experience in software development, online and e-commerce. As you'll
-            see in my CV, I have a year of experience in frontend development
-            using HTML5, CSS3, JavaScript ES6, AngularJS, Git, webpack, Babel,
-            Sass, npm and a year of experience in e-commerce and digital
-            marketing. I am passionate about tech and new technologies and I try
-            to stay up-to-date on industry trends. My last projects are
-            developed with React and Firebase.
+            My super power is that I am a great JavaScript developer. I am
+            passionate about tech and new technologies and I try to stay
+            up-to-date on industry trends :)
           </motion.p>
           {/* <motion.button
             id="login-button"
@@ -73,9 +69,9 @@ const Initial = () => {
             Download My Resume
           </motion.button> */}
 
-          <Link id="resume" to="/files/resume.pdf" target="_blank" download>
+          {/* <Link id="resume" to="/files/resume.pdf" target="_blank" download>
             Download My Resume
-          </Link>
+          </Link> */}
         </motion.div>
         <ul className="bg-bubbles">
           <li></li>

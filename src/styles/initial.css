@@ -1,7 +1,8 @@
 .initial {
   left: 0;
   width: 100%;
-  height: 800px;
+  height: 700px;
+  /* height: 800px; */
   overflow: hidden;
   display: block;
 }
@@ -40,10 +41,10 @@
 }
 
 .container-initial p {
-  font-size: 17px;
+  font-size: 20px;
   font-family: "Raleway", sans-serif;
   color: white;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
