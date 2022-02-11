@@ -62,25 +62,6 @@ const Projects = () => {
 
         <div className=" col-md-4 col-md-6">
           <a
-            href="https://babyloo.ro/"
-            className="d-block mb-4 h-100"
-            target="_blank"
-          >
-            <img className="img-fluid img-thumbnail" src={babyloo} alt="" />
-          </a>
-        </div>
-        <div className=" col-md-4 col-md-6">
-          <a
-            href="https://enesimona.github.io/firegram/"
-            className="d-block mb-4 h-100"
-            target="_blank"
-          >
-            <img className="img-fluid img-thumbnail" src={firegram} alt="" />
-          </a>
-        </div>
-
-        <div className=" col-md-4 col-md-6">
-          <a
             href="https://paradoxeforie.ro/"
             className="d-block mb-4 h-100"
             target="_blank"
